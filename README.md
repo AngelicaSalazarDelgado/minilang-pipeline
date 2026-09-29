@@ -89,7 +89,7 @@ La evidencia de cada caso está en `evidencias/<caso>/`, con el log de la ejecuc
 
 El video muestra una ejecución completa y un caso de error.
 
-[Ver el video de demostración]https://youtu.be/A0eWg2Fx7TU
+[Ver el video de demostración](https://youtu.be/A0eWg2Fx7TU)
 
 ## Referencias
 
