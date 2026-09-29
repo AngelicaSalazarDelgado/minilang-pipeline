@@ -3,8 +3,8 @@ Etapa 2 del pipeline. Lee programa.ir, valida el contrato y ejecuta
 las operaciones con estilo funcional. Genera resultado.txt con la
 traza, el resultado final y la cantidad de operaciones.
 
-El nucleo no usa ciclos for ni while. FILTER usa filter(), MAP usa map()
-y tanto REDUCE como la secuencia completa de operaciones usan reduce().
+FILTER usa filter(), MAP usa map() y REDUCE usa reduce(). La secuencia
+completa de operaciones tambien se aplica con reduce().
 
 Uso: python3 ejecutor.py programa.ir resultado.txt
 Codigos de salida, 0 correcto, 1 error de contrato o de ejecucion,
@@ -119,8 +119,7 @@ def ejecutar_reduce(op, datos):
     return REDUCTORES[tipo](datos)
 
 
-# Cada nombre de operacion apunta a la funcion que la ejecuta.
-# Cumple el mismo papel que el polimorfismo en Java.
+# Cada nombre de operacion apunta a la funcion que la ejecuta
 EJECUTORES = {
     "FILTER": ejecutar_filter,
     "MAP": ejecutar_map,

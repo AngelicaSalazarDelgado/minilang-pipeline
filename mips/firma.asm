@@ -19,14 +19,6 @@
 # entre llamadas. main termina con la syscall 10, por eso puede usar jal sin
 # guardar $ra.
 #
-# Requisitos del enunciado
-#   registros, $s0 a $s5 en main y registros $t en las subrutinas
-#   acceso a memoria, lb y sb sobre buffer, texto_salida y digitos_tmp
-#   ciclos, siguiente_elemento, buscar_clave, leer_digito y dividir
-#   operacion aritmetica, mul, addu, addiu y divu
-#   operacion logica, xor
-#   saltos condicionales, beq, bne, beqz, bnez, bltz, bgez, blt y bgt
-#
 # Limites
 #   resultado.txt debe tener menos de 4095 bytes para caber en el buffer.
 #   Los numeros son enteros de 32 bits. Si un valor no cabe, da la vuelta
