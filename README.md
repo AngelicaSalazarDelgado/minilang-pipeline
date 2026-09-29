@@ -20,6 +20,7 @@ minilang-pipeline/
   programa.mini          programa principal de prueba
   run.sh                 ejecuta el pipeline completo
   probar_casos.sh        ejecuta todos los casos y guarda evidencias
+  demo.sh                demostracion guiada que se uso para grabar el video
   java/src/minilang/     etapa 1, lexer, parser, analisis semantico y jerarquia de instrucciones
   python/ejecutor.py     etapa 2, ejecucion con filter, map y reduce
   mips/firma.asm         etapa 3, checksum de verificacion
@@ -38,9 +39,10 @@ Todos los comandos se ejecutan desde la carpeta raíz del proyecto.
 ./run.sh                                       # ejecuta programa.mini
 ./run.sh casos/caso02_operador_invalido.mini   # ejecuta otro programa
 ./probar_casos.sh                              # ejecuta todos los casos y guarda evidencias
+./demo.sh                                      # demostracion guiada con explicaciones en pantalla
 ```
 
-Si los scripts no tienen permiso de ejecución, se habilita con `chmod +x run.sh probar_casos.sh`.
+Si los scripts no tienen permiso de ejecución, se habilita con `chmod +x run.sh probar_casos.sh demo.sh`.
 
 `run.sh` borra las salidas de la ejecución anterior, compila Java y ejecuta las tres etapas en orden. Si una etapa falla, muestra el error, indica en qué etapa se detuvo y no ejecuta las siguientes.
 
