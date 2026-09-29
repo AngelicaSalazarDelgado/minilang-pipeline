@@ -59,29 +59,29 @@ El programa MIPS usa las rutas relativas `salida/resultado.txt` y `salida/firma.
 
 ## Códigos de salida
 
-| Código | Significado |
-|---|---|
-| 0 | La etapa terminó correctamente |
-| 1 | Error de análisis, de contrato o de ejecución |
-| 2 | Error de uso o de lectura de archivos |
+| Código | Significado                                   |
+| ------ | --------------------------------------------- |
+| 0      | La etapa terminó correctamente                |
+| 1      | Error de análisis, de contrato o de ejecución |
+| 2      | Error de uso o de lectura de archivos         |
 
 ## Casos de prueba
 
 Los casos 01 a 06 corresponden a las seis pruebas obligatorias del enunciado, en el mismo orden. Los casos 07 a 11 son adicionales.
 
-| Caso | Propósito | Resultado |
-|---|---|---|
-| 01 | Programa válido con FILTER, MAP, REDUCE y PRINT | RESULT=60, OPS=3, FIRMA=80 |
-| 02 | Operador inválido | Error léxico en línea 3, se detiene en Java |
-| 03 | Programa sin DATA | Error sintáctico en línea 1, se detiene en Java |
-| 04 | REDUCE MAX | RESULT=15, OPS=2, FIRMA=30 |
-| 05 | FILTER deja la lista vacía | RESULT=0, OPS=2, FIRMA=19 |
-| 06 | MAP y FILTER consecutivos | RESULT=63, OPS=4, FIRMA=76 |
-| 07 | MAP después de REDUCE | Error semántico en línea 3, se detiene en Java |
-| 08 | REDUCE MAX sobre lista vacía | Error de ejecución, se detiene en Python |
-| 09 | Programa sin REDUCE | RESULT=16,20,24, OPS=2, FIRMA=16039 |
-| 10 | Programa sin PRINT | Error sintáctico en línea 2, se detiene en Java |
-| 11 | MAP que produce negativos | RESULT=-3, OPS=2, FIRMA=16 |
+| Caso | Propósito                                       | Resultado                                       |
+| ---- | ----------------------------------------------- | ----------------------------------------------- |
+| 01   | Programa válido con FILTER, MAP, REDUCE y PRINT | RESULT=60, OPS=3, FIRMA=80                      |
+| 02   | Operador inválido                               | Error léxico en línea 3, se detiene en Java     |
+| 03   | Programa sin DATA                               | Error sintáctico en línea 1, se detiene en Java |
+| 04   | REDUCE MAX                                      | RESULT=15, OPS=2, FIRMA=30                      |
+| 05   | FILTER deja la lista vacía                      | RESULT=0, OPS=2, FIRMA=19                       |
+| 06   | MAP y FILTER consecutivos                       | RESULT=63, OPS=4, FIRMA=76                      |
+| 07   | MAP después de REDUCE                           | Error semántico en línea 3, se detiene en Java  |
+| 08   | REDUCE MAX sobre lista vacía                    | Error de ejecución, se detiene en Python        |
+| 09   | Programa sin REDUCE                             | RESULT=16,20,24, OPS=2, FIRMA=16039             |
+| 10   | Programa sin PRINT                              | Error sintáctico en línea 2, se detiene en Java |
+| 11   | MAP que produce negativos                       | RESULT=-3, OPS=2, FIRMA=16                      |
 
 La evidencia de cada caso está en `evidencias/<caso>/`, con el log de la ejecución y los archivos que el pipeline alcanzó a generar.
 
@@ -89,7 +89,7 @@ La evidencia de cada caso está en `evidencias/<caso>/`, con el log de la ejecuc
 
 El video muestra una ejecución completa y un caso de error.
 
-[Ver el video de demostración](AGREGAR_ENLACE_DEL_VIDEO)
+[Ver el video de demostración]https://youtu.be/A0eWg2Fx7TU
 
 ## Referencias
 
