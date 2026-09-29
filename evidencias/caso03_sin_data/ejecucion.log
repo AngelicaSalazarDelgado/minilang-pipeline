@@ -1,0 +1,5 @@
+== Compilando Java
+== Etapa 1, Java, analisis y traduccion de casos/caso03_sin_data.mini
+Error sintactico en linea 1, se esperaba DATA al inicio del programa y se encontro 'FILTER'
+
+PIPELINE DETENIDO en la etapa 1 (Java)

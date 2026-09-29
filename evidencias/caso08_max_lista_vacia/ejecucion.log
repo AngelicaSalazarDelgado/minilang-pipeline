@@ -1,0 +1,7 @@
+== Compilando Java
+== Etapa 1, Java, analisis y traduccion de casos/caso08_max_lista_vacia.mini
+OK, 4 instrucciones traducidas a salida/programa.ir
+== Etapa 2, Python, ejecucion funcional
+Error de ejecucion, REDUCE MAX sobre una lista vacia, no hay ningun valor que devolver
+
+PIPELINE DETENIDO en la etapa 2 (Python)

@@ -1,0 +1,16 @@
+== Compilando Java
+== Etapa 1, Java, analisis y traduccion de casos/caso11_negativos.mini
+OK, 4 instrucciones traducidas a salida/programa.ir
+== Etapa 2, Python, ejecucion funcional
+MAP - 5 => [-3, -1, 1]
+REDUCE SUM => -3
+RESULT=-3
+OPS=2
+== Etapa 3, MIPS, firma de verificacion
+FIRMA=16
+
+
+PIPELINE COMPLETO
+  salida/programa.ir
+  salida/resultado.txt
+  salida/firma.txt

@@ -1,0 +1,4 @@
+FILTER >= 7 => [15, 7, 9]
+REDUCE MAX => 15
+RESULT=15
+OPS=2

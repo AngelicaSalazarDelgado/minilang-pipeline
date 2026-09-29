@@ -1,0 +1,17 @@
+== Compilando Java
+== Etapa 1, Java, analisis y traduccion de casos/caso01_valido.mini
+OK, 5 instrucciones traducidas a salida/programa.ir
+== Etapa 2, Python, ejecucion funcional
+FILTER > 5 => [8, 10, 12]
+MAP * 2 => [16, 20, 24]
+REDUCE SUM => 60
+RESULT=60
+OPS=3
+== Etapa 3, MIPS, firma de verificacion
+FIRMA=80
+
+
+PIPELINE COMPLETO
+  salida/programa.ir
+  salida/resultado.txt
+  salida/firma.txt

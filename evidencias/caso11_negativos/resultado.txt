@@ -1,0 +1,4 @@
+MAP - 5 => [-3, -1, 1]
+REDUCE SUM => -3
+RESULT=-3
+OPS=2

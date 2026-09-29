@@ -1,0 +1,4 @@
+FILTER > 10 => []
+REDUCE SUM => 0
+RESULT=0
+OPS=2

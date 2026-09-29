@@ -1,0 +1,16 @@
+== Compilando Java
+== Etapa 1, Java, analisis y traduccion de casos/caso04_reduce_max.mini
+OK, 4 instrucciones traducidas a salida/programa.ir
+== Etapa 2, Python, ejecucion funcional
+FILTER >= 7 => [15, 7, 9]
+REDUCE MAX => 15
+RESULT=15
+OPS=2
+== Etapa 3, MIPS, firma de verificacion
+FIRMA=30
+
+
+PIPELINE COMPLETO
+  salida/programa.ir
+  salida/resultado.txt
+  salida/firma.txt

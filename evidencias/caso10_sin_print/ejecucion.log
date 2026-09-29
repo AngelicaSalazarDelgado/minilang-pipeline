@@ -1,0 +1,5 @@
+== Compilando Java
+== Etapa 1, Java, analisis y traduccion de casos/caso10_sin_print.mini
+Error sintactico en linea 2, se esperaba FILTER, MAP, REDUCE o PRINT y se encontro el fin del archivo
+
+PIPELINE DETENIDO en la etapa 1 (Java)

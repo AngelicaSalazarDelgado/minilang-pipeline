@@ -1,0 +1,5 @@
+== Compilando Java
+== Etapa 1, Java, analisis y traduccion de casos/caso07_error_semantico.mini
+Error semantico en linea 3, MAP no se puede aplicar despues de REDUCE, el valor ya no es una lista
+
+PIPELINE DETENIDO en la etapa 1 (Java)
